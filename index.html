@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Stories Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Using local emojis instead of Font Awesome to avoid tracking issues -->
+</head>
+<body>
+    <div class="app-container">
+        <header class="stories-header">
+            <h1>📸 Stories</h1>
+            <p class="subtitle">Stories disappear after 24 hours</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="stories-container" id="storiesContainer">
+                <!-- Stories will be dynamically added here -->
+            </div>
+            
+            <div class="instructions">
+                <p>Click <span class="plus-icon">➕</span> to add a new story</p>
+                <p>Click on a story to view it</p>
+                <p>Swipe left/right or use arrow keys to navigate</p>
+            </div>
+        </main>
+        
+        <!-- Story Viewer Modal -->
+        <div class="modal-overlay story-viewer hidden" id="storyViewer">
+            <div class="story-viewer-content">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Upload Modal -->
+        <div class="modal-overlay upload-modal hidden" id="uploadModal">
+            <div class="upload-modal-content">
+                <h2>📤 Add New Story</h2>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📤</div>
+                    <p>Click here to select an image</p>
+                    <p class="upload-hint">Max size: 1080x1920px</p>
+                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                </div>
+                <div class="upload-controls">
+                    <button class="btn cancel-btn" id="cancelBtn">Cancel</button>
+                    <button class="btn upload-btn hidden" id="uploadBtn">Upload</button>
+                </div>
+                <div class="image-preview hidden" id="imagePreview">
+                    <img id="previewImage" alt="Preview">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Notification -->
+        <div class="notification hidden" id="notification"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
