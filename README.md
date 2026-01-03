@@ -21,7 +21,7 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/stories-clone.git
+git clone https://github.com/Rajesh9894/Story_Clone.git
 Open index.html in your browser or use a local server:
 
 bash
@@ -71,4 +71,4 @@ Edge 79+
 License
 MIT
 
-Project URL: https://github.com/yourusername/stories-clone
+Project URL: https://rajesh9894.github.io/Story_Clone/
