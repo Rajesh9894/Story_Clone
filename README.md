@@ -12,6 +12,10 @@ A client-side implementation of Instagram's 24-hour Stories feature.
 
 ## Live Demo
 [https://rajesh9894.github.io/Story_Clone/](https://rajesh9894.github.io/Story_Clone/)
+[https://vercel.com/robert-rajeshs-projects/story-clone/]
+[https://story-clone-f4smuyqsz-robert-rajeshs-projects.vercel.app/]
+
+story-clone-f4smuyqsz-robert-rajeshs-projects.vercel.app
 
 ## Installation
 1. Clone the repository:
